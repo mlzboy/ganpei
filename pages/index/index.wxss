@@ -1,0 +1,97 @@
+
+.category
+{
+margin:8rpx 0 0 0;
+border: 1px solid #00c355;
+background-color: #00c355;
+border-radius:15rpx;
+font-size: 24rpx;
+color:white;
+line-height: 30rpx;
+height:30rpx;
+text-align: center;
+width:70rpx;
+display:block;
+}
+.header
+{
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+margin: 0 40rpx 40rpx 40rpx;
+}
+.question
+{
+text-indent:100rpx;
+margin:-50rpx 0 0 0;
+font-size: 42rpx;
+line-height: 60rpx;
+}
+
+
+.option
+{
+padding: 25rpx 40rpx 25rpx 40rpx;
+}
+
+
+
+.circle {
+float:left;
+border-radius: 50%;
+width: 60rpx;
+height: 60rpx; 
+/*background-color: #00c355;*/
+font-size: 42rpx;
+/*font-family: "宋体";*/
+text-align: center;
+line-height: 60rpx;
+margin:0 45rpx 0 0;
+}
+.answer
+{
+/*display: inline-block;
+margin: 0 0 0 45rpx;*/
+font-size: 42rpx;
+word-break: break-all;
+}
+
+.btn {
+	text-align: center;
+	border-radius: 70rpx;
+  line-height: 80rpx;
+  font-size:42rpx;
+  height:80rpx;
+  width:80%;
+  
+}
+.white
+{
+  border-color: gray;
+  background-color: white;
+  box-shadow:0px 0px 8rpx gray;
+  font-family: "宋体";
+}
+
+.green {
+	color: white;
+	background: #00c355;
+font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif","Tahoma", "Geneva";
+}
+.orange {
+	color: white;
+	background: orange;
+  font-family: "宋体";
+}
+.gray {
+	color:white;
+	background: #d3d3d3;
+  
+}
+
+.confirm
+{
+  margin: 40rpx 0 0 0;
+  display: flex;
+  justify-content: center;
+}
