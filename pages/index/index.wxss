@@ -1,4 +1,7 @@
-
+.main
+{
+  margin-bottom: 30rpx;
+}
 .category
 {
 margin:8rpx 0 0 0;
@@ -31,27 +34,29 @@ line-height: 60rpx;
 
 .option
 {
+display: float;
 padding: 25rpx 40rpx 25rpx 40rpx;
+position: relative;
 }
 
-
-
 .circle {
-float:left;
 border-radius: 50%;
 width: 60rpx;
 height: 60rpx; 
-/*background-color: #00c355;*/
 font-size: 42rpx;
-/*font-family: "宋体";*/
 text-align: center;
 line-height: 60rpx;
-margin:0 45rpx 0 0;
+position: absolute;
+top: 0;
+left: 40rpx;
+right: 0;
+bottom: 0;
+margin:auto 0;
 }
 .answer
 {
-/*display: inline-block;
-margin: 0 0 0 45rpx;*/
+display: block;
+margin-left: 100rpx;
 font-size: 42rpx;
 word-break: break-all;
 }
@@ -70,7 +75,6 @@ word-break: break-all;
   border-color: gray;
   background-color: white;
   box-shadow:0px 0px 8rpx gray;
-  font-family: "宋体";
 }
 
 .green {
@@ -81,8 +85,12 @@ font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif","Tahoma", "Gene
 .orange {
 	color: white;
 	background: orange;
-  font-family: "宋体";
+font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif","Tahoma", "Geneva";
 }
+.grayb{
+  	background: #d3d3d3;
+}
+
 .gray {
 	color:white;
 	background: #d3d3d3;
@@ -94,4 +102,68 @@ font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif","Tahoma", "Gene
   margin: 40rpx 0 0 0;
   display: flex;
   justify-content: center;
+}
+.br
+{
+  background-color:#d3d3d3;
+  height: 20rpx;
+  line-height: 20rpx;
+  width: 100%;
+}
+.line
+{
+  background-color:#d3d3d3;
+  height: 2rpx;
+  line-height: 2rpx;
+  width: 100%;
+}
+
+
+
+.memory_header
+{
+display: float;
+padding: 25rpx 40rpx 25rpx 40rpx;
+position: relative;
+}
+
+.memory_icon {
+border-radius: 15rpx;
+width: 12rpx;
+height: 30rpx; 
+font-size: 30rpx;
+text-align: center;
+line-height: 30rpx;
+position: absolute;
+top: 0;
+left: 40rpx;
+right: 0;
+bottom: 0;
+margin:auto 0;
+  background: #00c355;
+
+
+}
+.memory_title
+{
+display: block;
+margin-left: 24rpx;
+font-size: 36rpx;
+line-height: 36rpx;
+font-weight: bold;
+word-break: break-all;
+}
+
+
+
+.memory_content
+{
+  margin: 30rpx 0;
+  display: flex;
+  justify-content: center;
+}
+.clear
+{
+clear:both;
+height:0;
 }

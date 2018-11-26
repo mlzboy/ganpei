@@ -1,0 +1,422 @@
+<scroll-view scroll-x="true" class="weui-navbar">
+<view id="1" class="default-item {{current_idx == 1 ? 'item_on':''}}" bindtap='tabClick'>大学心理学</view>
+<view id="2" class="default-item {{current_idx == 2 ? 'item_on':''}}" bindtap='tabClick'>高等教育法规</view>
+<view id="3" class="default-item {{current_idx == 3 ? 'item_on':''}}" bindtap='tabClick'>大学教育学</view>
+<view id="4" class="default-item {{current_idx == 4 ? 'item_on':''}}" bindtap='tabClick'>教师伦理学</view>
+   <view class="weui-navbar-slider" style="width:{{width}}rpx;transform:translateX({{offset}}rpx);"></view>
+</scroll-view>
+<view style="margin:40rpx 0"/>
+<!--
+<swiper>
+<swiper-item>
+<image src="../../images/ad.png" mode="widthFix"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/vip.png" mode="widthFix"></image>
+</swiper-item>
+</swiper>
+-->
+
+ 
+
+<swiper>
+<swiper-item>
+<view class="memory_header">
+<view class="memory_icon"></view>
+<view class="memory_title">题库</view>
+</view>
+<scroll-view scroll-x="true" class="sv">
+<view class="block_test">
+<view class="icon_test a">做</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">学</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">生</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">锤</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">炼</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">品</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">格</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">的</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">引</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">路</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">人</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">做</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">学</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">生</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">学</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">习</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">知</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">识</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">的</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">引</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test a">路</view>
+<view class="text_test">卷一</view>
+
+<view class="icon_test a">人</view>
+<view class="text_test">卷一</view>
+</view>
+</scroll-view>
+<view class="memory_header" style="margin:40rpx 0 40rpx 0;">
+  <view class="memory_icon"></view>
+  <view class="memory_title">专项练习</view>
+</view> 
+<view class="sv2">
+  <view class="block_test">
+  <view class="icon_test a">单</view>
+  <view class="text_test">单选题</view>
+  </view>
+  <view class="block_test">
+  <view class="icon_test a">多</view>
+  <view class="text_test">多选题</view>
+  </view>
+  <view class="block_test">
+  <view class="icon_test a">判</view>
+  <view class="text_test">判断题</view>
+  </view>
+</view>
+<view class="memory_header" style="margin:40rpx 0 40rpx 0;">
+  <view class="memory_icon"></view>
+  <view class="memory_title">专项练习</view>
+</view> 
+<view class="sv2">
+  <view class="block_test">
+  <view class="icon_test a">错</view>
+  <view class="text_test">错题集</view>
+  </view>
+  <view class="block_test">
+  <view class="icon_test a">藏</view>
+  <view class="text_test">收藏题</view>
+  </view>
+</view>
+
+</swiper-item>
+
+
+
+
+
+
+<swiper-item>
+<scroll-view scroll-x="true" class="sv">
+<view class="block_test">
+<view class="icon_test c">做</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">学</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">生</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">创</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">新</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">思</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">维</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">的</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">引</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">路</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">人</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test c">做</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">学</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">生</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">奉</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">献</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">祖</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">国</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">的</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">引</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">路</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test c">人</view>
+<view class="text_test">卷一</view>
+</view>
+</scroll-view>
+</swiper-item>
+
+<swiper-item>
+<scroll-view scroll-x="true" class="sv">
+
+<view class="block_test">
+<view class="icon_test b">有</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">理</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">想</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">信</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">念</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test b">有</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">道</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">德</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">情</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">操</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test b">有</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">扎</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">实</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">学</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">识</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test b">有</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">仁</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">爱</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">之</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test b">心</view>
+<view class="text_test">卷一</view>
+</view>
+
+</scroll-view>
+</swiper-item>
+<swiper-item>
+<scroll-view scroll-x="true" class="sv">
+
+<view class="block_test">
+<view class="icon_test d">坚</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">持</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">教</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">书</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">和</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test d">育</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">人</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">相</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">统</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">一</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test d">坚</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">持</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">言</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">传</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">和</view>
+<view class="text_test">卷一</view>
+</view>
+
+<view class="block_test">
+<view class="icon_test d">身</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">教</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">相</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">统</view>
+<view class="text_test">卷一</view>
+</view>
+<view class="block_test">
+<view class="icon_test d">一</view>
+<view class="text_test">卷一</view>
+</view>
+
+</scroll-view>
+</swiper-item>
+</swiper>
+
+
+

@@ -1,10 +1,10 @@
-
+<scroll-view>
 <view class="header">
   <text class="category">选择</text>
   <text class="question">机动车在高速行驶中，突然爆胎要采取的安全措施是什么</text>
 </view>
 <view class="main">
-  <view class="option" style="background-color:#d3d3d3;">
+  <view class="option grayb">
     <text class="circle white">A</text>
     <text class="answer">机动车在高速行驶中</text>
   </view>
@@ -28,3 +28,17 @@
   <view class="btn green">确定</view>
   </view>
 </view>
+<view class="br"></view>
+
+<view class="memory_header">
+<view class="memory_icon"></view>
+<view class="memory_title">记忆技巧</view>
+</view> 
+<view class="line"></view>
+
+<view class="memory_content">
+<image src="../../images/vip.png" mode="widthFix"></image>
+</view>
+<view class="br"></view>
+
+</scroll-view>
